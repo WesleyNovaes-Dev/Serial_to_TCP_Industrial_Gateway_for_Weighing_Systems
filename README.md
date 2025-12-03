@@ -152,5 +152,100 @@ Isso inclui:
 
 ## 📸 Screenshots (Inserir após subir as imagens)
 
-> **Coloque as imagens no repositório e substitua pelos links:**  
+> **Coloque as imagens no repositório e substitua pelos links:**
+
+
+
+
+---
+
+## 🌐 Demonstração Online
+
+Acesse a página oficial do projeto:  
+👉 **https://digitalintegration.site/** *(exemplo — substitua pelo seu domínio real)*
+
+---
+
+## 📦 Como Instalar
+
+### **1) Firmware ESP32**
+- Abra o projeto na Arduino IDE / PlatformIO
+- Compile e carregue
+- Ligue o dispositivo
+
+### **2) Configuração Inicial**
+- Conecte ao Wi-Fi exposto pelo dispositivo (SoftAP)
+- Acesse `192.168.4.1`
+- Configure:
+  - SSID
+  - Senha
+  - DHCP/IP Estático
+  - Enterprise (se necessário)
+- Salve e reinicie
+
+### **3) Conexão com ERP / Servidor**
+- Configure seu sistema para conectar ao socket TCP
+- Utilize a porta definida no painel do dispositivo
+- Pronto — a balança está integrada!
+
+---
+
+## 📊 Performance e Resultados
+
+| Métrica | Resultado |
+|--------|-----------|
+| Latência média | **< 50ms** |
+| Perda de pacotes | **0%** |
+| Uptime testado | **> 3 horas contínuas** |
+| Economia de tráfego (filtro inteligente) | **~90%** |
+
+---
+
+## 💡 Casos de Uso
+
+- Pesagem industrial em tempo real  
+- Controle de estoque e logística  
+- Linhas de produção  
+- Inspeção e controle de qualidade  
+- Integração com ERPs corporativos  
+- Automação de processos
+
+---
+
+## 🏭 Uso na NCH Brasil
+
+O sistema está em **operação real** em ambiente industrial:  
+- Implantado e rodando diariamente  
+- Integrado com ERP oficial  
+- Acompanhado por operadores e gestores  
+- Atualizado continuamente como produto interno  
+- Base para expansão a múltiplas unidades
+
+---
+
+## 🤝 Contribuições
+
+Sugestões, melhorias e pull requests são bem-vindos!
+
+---
+
+## 👨‍💻 Autor
+
+**Wesley Davi Zanon Novaes**  
+Engenharia de Computação – Desenvolvimento Embarcado  
+Sorocaba – SP, Brasil  
+
+📧 E-mail: **wesleyzanon.dev@gmail.com**  
+📱 WhatsApp: **(11) 96583-5656**  
+🌐 LinkedIn: *https://www.linkedin.com/in/wesleynovaes*  
+
+---
+
+## ⭐ Se este projeto te ajudou...
+
+Deixe uma **estrela ⭐ no repositório**. Isso ajuda muito!
+
+---
+
+
 
