@@ -224,6 +224,12 @@ O sistema está em **operação real** em ambiente industrial:
 
 ---
 
+👉 **Link do Site Explicativo:**  
+[Serial_to_TCP_Industrial_Gateway_for_Weighing_Systems]()
+
+👉 **Repositório do Site Explicativo:**  
+[Serial_to_TCP_Industrial_Gateway_for_Weighing_Systems](https://github.com/WesleyNovaes-Dev/Serial_to_TCP_Industrial_Gateway_Web)
+
 ## 🤝 Contribuições
 
 Sugestões, melhorias e pull requests são bem-vindos!
