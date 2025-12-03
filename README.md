@@ -1,4 +1,4 @@
-# 🚀 Gateway IoT Industrial – Integração de Balanças RS-232/USB com Redes TCP/IP  
+# 🚀 Gateway IoT Industrial – Integração de Balanças RS-232 com Redes TCP/IP  
 ### **Projeto Empresarial – Indústria 4.0 (NCH Brasil)**  
 **Desenvolvido por:** *Wesley Davi Zanon Novaes*  
 
@@ -84,12 +84,24 @@ Responsável por:
 
 ## 🔌 Conexões (Pinout)
 
-| ESP32 | MAX3232 | Função |
-|------|---------|--------|
-| GPIO 16 (RX2) | TX | Recepção RS-232 |
-| GPIO 17 (TX2) | RX | Envio RS-232 |
-| GND | GND | Referência |
-| 3.3V | VCC | Alimentação |
+## 🔌 Conexões (Pinout Completo – ESP32 + MAX3232 + W5500)
+
+| **ESP32**           | **Dispositivo** | **Pino no Dispositivo** | **Função** |
+|---------------------|------------------|---------------------------|------------|
+| **GPIO 16 (RX2)**   | MAX3232          | TX                        | Recepção da Balança (RS-232 → TTL) |
+| **GPIO 17 (TX2)**   | MAX3232          | RX                        | Envio para Balança (TTL → RS-232) |
+| **GND**             | MAX3232          | GND                       | Referência elétrica |
+| **3.3V**            | MAX3232          | VCC                       | Alimentação do conversor |
+| **GPIO 18 (SCK)**   | W5500            | SCLK                      | Clock SPI |
+| **GPIO 19 (MISO)**  | W5500            | MISO                      | Dados do W5500 → ESP32 |
+| **GPIO 23 (MOSI)**  | W5500            | MOSI                      | Dados do ESP32 → W5500 |
+| **GPIO 5 (CS)**     | W5500            | CS                        | Chip Select do módulo Ethernet |
+| **GPIO 4 (RST)**    | W5500            | RST                       | Reset do módulo Ethernet |
+| **GND**             | W5500            | GND                       | Referência elétrica |
+| **3.3V ou 5V***     | W5500            | VCC                       | Alimentação (depende do módulo)** |
+| **GPIO 2**          | LED Indicador    | LED                       | LED de status do sistema |
+
+> **\*** A maioria dos módulos W5500 funciona com alimentação 3.3V lógica, porém muitos incluem regulador interno e aceitam 5V — verificar o modelo utilizado.
 
 ---
 
