@@ -1,3 +1,4 @@
+# Serial-to-TCP Industrial Gateway for Weighing Systems
 # 🚀 Gateway IoT Industrial – Integração de Balanças RS-232 com Redes TCP/IP  
 ### **Projeto Empresarial – Indústria 4.0 (NCH Brasil)**  
 **Desenvolvido por:** *Wesley Davi Zanon Novaes*  
