@@ -83,8 +83,6 @@ Responsável por:
 
 ---
 
-## 🔌 Conexões (Pinout)
-
 ## 🔌 Conexões (Pinout Completo – ESP32 + MAX3232 + W5500)
 
 | **ESP32**           | **Dispositivo** | **Pino no Dispositivo** | **Função** |
