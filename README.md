@@ -243,7 +243,7 @@ Formado: Dez/2025.
 
 📧 E-mail: **wesleyzanon.dev@gmail.com**  
 📱 WhatsApp: **(11) 96583-5656**  
-🌐 LinkedIn: *https://www.linkedin.com/in/wesleynovaes](https://www.linkedin.com/in/wesley-novaes-641577193/*  
+🌐 LinkedIn: *[https://www.linkedin.com/in/wesley-novaes-641577193/]*  
 
 ---
 
