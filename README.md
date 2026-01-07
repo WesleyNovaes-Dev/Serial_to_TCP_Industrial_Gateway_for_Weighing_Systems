@@ -163,7 +163,7 @@ Isso inclui:
 ## 🌐 Demonstração Online
 
 Acesse a página oficial do projeto:  
-👉 **https://digitalintegration.site/** *(exemplo — substitua pelo seu domínio real)*
+👉 **[https://digitalintegration.site/](https://serial-to-tcp-industrial-gateway-we-three.vercel.app/)** 
 
 ---
 
